@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 100px);
+        gap: 10px;
+        background-color: lightgray;
+        padding: 10px;
+      }
+      .box {
+        background-color: tomato;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+      }
